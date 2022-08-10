@@ -1,0 +1,65 @@
+.sign-in{
+    color: rgb(122, 120, 120);
+}
+
+.signup{
+    display: block;
+    margin: auto;
+}
+
+.recommend{
+    margin-left: 200px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-danger{
+    
+    position: absolute;
+    top: 80%;
+    left: 80%;
+}
+
+.footer{
+    height: 20vh;
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    float: left;
+    margin: 0px 5px;
+}
+
+.brandStore img{
+    width: 8%;
+    
+    
+}
+.space{
+    margin-left: 200px;
+}
+
+.social-media{
+    display: flex;
+}
+.social-media img{
+    width: 3%;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+
+.copyright{
+    
+    position: absolute;
+    top: 177%;
+    left: 65%;
+}

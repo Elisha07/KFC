@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png" alt="" width="50" height="50">
+          </a>
+          <h5 class="sign-in">SIGN IN</h5>
+        </div>
+    </nav>
+    
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="#"><img src="https://ak0.picdn.net/shutterstock/videos/23708650/thumb/11.jpg?ip=x480" height="50px" width="60px"> Delivery</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><img src="https://mpng.subpng.com/20181216/yoa/kisspng-shopping-bag-handbag-vector-graphics-shopping-bag-of-normal-design-outline-svg-png-icon-5c15de468c5023.7312669715449370305747.jpg" height="50px" width="50px"> Take away</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#"><img src="data:image/png;base64,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" height="50px" width="50px"> Dine-in</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Our Location" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://kfc-finall.webdevdev1.repl.co/img3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://kfc-finall.webdevdev1.repl.co/img1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://kfc-finall.webdevdev1.repl.co/img2.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <br>
+      <img class="signup" src="https://kfc-finall.webdevdev1.repl.co/assets/images/signup.png"><br>
+      <h1 class="recommend">Recommended for you</h1>
+      <div class="options">
+        <div class="card" style="width: 18rem;">
+          <img src="https://kfc-finall.webdevdev1.repl.co/card1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ultimate Savings Bucket</h5>
+            <p class="card-text">₹ 599</p>
+            <a href="#" class="btn btn-danger">Buy</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://kfc-finall.webdevdev1.repl.co/card2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Family Fest</h5>
+            <p class="card-text">₹ 749</p>
+            <a href="#" class="btn btn-danger">Buy</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="https://kfc-finall.webdevdev1.repl.co/card3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Big 8</h5>
+            <p class="card-text">₹ 549</p>
+            <a href="#" class="btn btn-danger">Buy</a>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <div class="footer">
+        <div class="menu">
+          <ul>
+            <li>ABOUT KFC </li>
+            <li>GIFT CARD </li>
+            <li>FEEDBACK </li>
+            <li>CONTACT US </li>
+            <li>BRAND T & C </li>
+            <li>OFFERS T & C </li>
+            <li>SITE MAP </li>
+            <li>FIND A KFC </li>
+          </ul>
+      
+          <div class="brandStore">
+            <img class="space" src="https://kfc-finall.webdevdev1.repl.co/assets/images/google.png">
+            <img src="https://kfc-finall.webdevdev1.repl.co/assets/images/app.png">
+          </div>
+      
+        </div>
+        <br>
+        <hr style="width: 95%; height: 2px; background: black; display: block; margin: auto;">
+        <br>
+        <div class="social-media">
+          <img src="https://kfc-finall.webdevdev1.repl.co/assets/images/facebook.png">
+          <img src="https://kfc-finall.webdevdev1.repl.co/assets/images/instagram.png">
+          <img src="https://kfc-finall.webdevdev1.repl.co/assets/images/youtube.png">
+        </div>
+      
+        <div class="copyright">
+          <p>© Copyright 2021 KFC. All Rights Reserved.</p>
+        </div>
+        <br>
+        <div class="lasttext"> 
+          <p>Food shown are for illustration purpose only. Actual product may differ from the images shown in this website. Our menu prices are now inclusive of GST.* The KFC name, logos, and related marks are trademarks of KFC, Inc. All chicken products contain Monosodium Glutamate. Not recommended for infants below 12 months.</p>
+        </div>
+      </div>
+      <br><br>
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
